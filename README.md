@@ -1,2 +1,2 @@
-# hactoberfest2021
+# hacktoberfest2021
 Contrbute for hactoberfest2021
