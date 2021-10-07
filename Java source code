@@ -1,0 +1,55 @@
+1. Java standard libraries
+Yep, that’s right, you heard me right. A lot of people underestimate or do not fully know the Java Standard libraries and do not know how to unleash its full power when programming or they don’t use it at all. Here is a brief description of some of the libraries:
+
+java.lang is always implicitly being imported as it contains everything you basically cannot program without String, Double, Enum, Math, etc.
+In java.util you can find all the collections and data structures available in Java
+Next, we have java.io for reading files, working with pipes, streams and similar.
+Also we have java.nio, which actually is the alternative to java.io and stands for non-blocking I/O. It allows intensive use of the input/output operations as you might guess.
+java.math provides functionality for working with arbitrary-precision decimal (BigDecimal) and integer (BigInteger) values
+java.net is being used for working with sockets, creating connections or in short – creating networking applications
+In Java we also have libraries for working with GUI : javax.swing (extension of the older java.awt)
+We even can play music and create midi files with java.sound
+You can find more about the Java Standard library here.
+
+2. JHipster
+JHipster is a development platform to generate, develop and deploy Spring Boot + Angular Web applications and Spring microservices.
+
+Man, this one have saved me months of development . I could definitely say that this one is my personal favourite and that I keep a special place for it in my heart. It basically generates your whole application from your front-end to the back-end. The only thing you need to add is the business logic behind the architecture. The main and most important libraries, which are included in the generated project are:
+
+Spring Boot – helps you accelerate and facilitate application development
+Angular / AngularJS – JavaScript framework
+You can find more about JHipster here.
+
+3. Maven
+Maven is a software project management and comprehension tool. Honestly, Maven is great. If you’ve never used Maven before, you’re missing out. Sometimes, I wonder how it was even possible to create enterprise applications prior to its creation.
+
+Maven can manage all your project dependencies, configurations and build configurations and even documentation only by specifying them in a single pom.xml file.
+
+You can find more about Maven here.
+
+SEE MORE: Top 5 machine learning libraries for Java
+4. Apache Commons
+Apache Commons is actually a whole project focused on creating Java libraries.
+
+Here is a short list of some of the best and most commonly used libraries:
+
+Commons Math: The Apache Commons Mathematics Library – the name says it all: this library contains components allowing advanced mathematics and statistics operations and computations
+Commons CLI – provides API for parsing command line arguments. Why will you even bother creating an application without the ability to pass parameters and control its behavior?!
+Commons CSV – whatever you are developing, at some point you are going to face the necessity of using csv files. This include opening, reading, editing, saving and creating them. I suggest using the RFC 4180 format from the CSVFormat class and UTF-8 encoding when saving/creating files.
+Commons IO – it is being used for easier execution of input/output operations. Checking at least the ReversedLinesFileReader is definitely worth it.
+You can find more about Apache Commons here.
+
+5. Guava
+Guava is the Google Core Libraries for Java. It is a library for extending the basic Java collections functionalities
+
+This is an utility I absolutely have to mention. Did you ever needed ordering for your collections? Did you ever need to compare the contents there? What about advanced sort and compare on multiple columns with multiple conditions? I present you one of my most favorite components in this library:
+
+ComparisonChain is used for implementing advanced and complicated comparison sort for collections.
+You can find more about Guava here.
+
+6. google-gson
+google-gson is helpful for converting Java Objects to JSON and vice versa.
+
+This library is especially helpful when developing mobile applications and creating/using REST APIs as well as in any case you would need to convert a Java Object to its JSON representation and vice versa.
+
+You can find more about google-gson her
